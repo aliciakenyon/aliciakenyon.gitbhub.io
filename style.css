@@ -38,7 +38,9 @@ h1 {
     background-color: rgb(156, 175, 136);
     line-height: 2.5;
     border-radius: 30px;
-    padding: 20px;
+    padding: 30px;
+    margin: 5px;
+
 }
 
 
@@ -74,5 +76,5 @@ nav a:hover {
     text-align: start;
     color: rgb(68, 44, 12);
     background-color: rgba(17, 90, 29, 0.15);
-    margin-top: 5px;
+    
 }
