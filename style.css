@@ -4,77 +4,102 @@
     padding:0;
 }
 
-h1 {
-    color: whitesmoke;
+div, 
+nav,
+h2,
+h3,
+p
+{
+    margin: 10px;
 }
 
-p,
-li {
-    font-size: 18px;
-    font-family: serif;
-}
-  
 
-h1 {
+.banner{
     text-align: center;
-
+    padding: 30px;
+    background-color: rgba(139, 169, 148,0.8);
+    padding: 250px 60px;
+    background-size: cover;
 }
 
+.banner h1{
+    color: rgb(53, 51, 51);
+    padding: 20px;
+    font-size: 90px;
+    font-family: 'Brush Script MT', cursive;
+}
 
-a {
+.banner p{
+    text-align: center;
+    display: inline-block;
+    max-width: 400px;
+    margin-top: 20px;
+    color: rgb(90, 80, 73)
+}
+
+nav {
+    text-align: end;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    
+}
+
+nav li a{
     text-decoration: none;
 }
 
-
-
-
-#first {
-    width: 500px;
-    margin: 0 auto;
+nav li+li::before {
+    content: "| ";
 }
 
-h1 {
-    color: whitesmoke;
-    background-color: rgb(156, 175, 136);
-    line-height: 2.5;
-    border-radius: 30px;
+nav li a:link{
+    color: rgb(103, 121, 152)
+}
+
+nav li a:visited{
+    color: rgb(159, 123, 167);
+}
+
+nav li a:hover{
+    color: rgb(139, 169, 148);
+}
+
+nav li a:active{
+    color: rgb(53, 51, 51);
+}
+
+blockquote {
+    margin: 40px;
+    text-align: center;
+    font-size: 30px;
     padding: 30px;
-    margin: 5px;
+    line-height: 2.5;
+    background-color: rgba(53, 51, 51, 0.3);
+    border-radius: 20px;
+}
 
+q {
+    font-weight: bold;
+}
+
+blockquote footer {
+    font-style: italic;
 }
 
 
-nav {
-       
-       vertical-align: top;
-       background-color: rgb(156, 175, 136);
-       
-
-} 
-
-nav li {
-    list-style-type: none;
-    display: inline;    
-    text-align: end;
+#about-me h1{
+    text-align: center;
 }
 
-nav a{
-    text-align: end;
+#about-me h1,
+h2 {
+    color:rgb(53, 51, 51)
 }
 
-nav li+li::before{
-    content: " | ";
-    
-}
-
-nav a:hover {
-    cursor: pointer;
-    color: rgb(17, 90, 29);
-}
-
-.intro {
-    text-align: start;
-    color: rgb(68, 44, 12);
-    background-color: rgba(17, 90, 29, 0.15);
-    
+.degree {
+    font-weight: bold;
 }
