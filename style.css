@@ -80,5 +80,5 @@ nav a:hover {
 p {
     text-align: start;
     color: rgb(68, 44, 12);
-    background-color: rgba(17, 90, 29, 20)
+    background-color: rgba(17, 90, 29, 0.15)
 }
