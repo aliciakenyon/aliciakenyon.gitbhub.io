@@ -29,6 +29,12 @@ p
     font-family: 'Brush Script MT', cursive;
 }
 
+.banner h2 {
+    text-align: left;
+    margin-left: 30px;
+    color: rgb(90, 80, 73);
+}
+
 .banner p{
     text-align: center;
     display: inline-block;
@@ -40,6 +46,7 @@ p
 nav {
 
     margin: 10px;
+    margin-top: 30px;
     font-weight: bold;
 }
 
@@ -58,11 +65,13 @@ nav li {
 nav li a{
     text-decoration: none;
     padding: 2px;
+    font-size: 25px;
     
 }
 
 nav li+li::before {
     content: " | ";
+    font-size: 25px;
     display: inline-flex;
 }
 
