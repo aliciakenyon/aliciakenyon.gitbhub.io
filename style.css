@@ -38,22 +38,32 @@ p
 }
 
 nav {
-    text-align: end;
+
     margin: 10px;
     font-weight: bold;
 }
 
-nav li {
-    display: inline;
-    
+nav ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
 }
+
+nav li {
+    display: inline-flex;
+}
+
 
 nav li a{
     text-decoration: none;
+    padding: 2px;
+    
 }
 
 nav li+li::before {
-    content: "| ";
+    content: " | ";
+    display: inline-flex;
 }
 
 nav li a:link{
